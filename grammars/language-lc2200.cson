@@ -1,0 +1,50 @@
+'fileTypes': [
+  's'
+]
+'name': 'Assembly (LC-2200)'
+'patterns': [
+
+  {
+    'match': '!.*'
+    'name': 'comment.line'
+    'comment': 'Comment format ;'
+  }
+  {
+    'match': '\\$(([aA][tT])|([vV][0])|([aA][0-2])|([tT][0-2])|([sS][0-2])|([kK][0])|([sS][pP])|([fF][pP])|([rR][aA]))',
+    'name': 'entity.name.function.reg'
+    'comment': 'Register format $__'
+  }
+  {
+    'match':  '((\\s|^)([aA][dD][dD])|([nN][aA][nN][dD])|([aA][dD][dD][iI])|([lL][wW])|([sS][wW])|([bB][eE][qQ])|([jJ][aA][lL][rR])|([sS][pP][oO][pP])|([hH][aA][lL][tT])|([lL][aA])|([nN][oO][oO][pP]))\\s'
+    'name': 'support.class.8086/8088'
+    'comment': 'Opcode format'
+  }
+  {
+    'match': '0?x[0-9A-F]{4}\\s'
+    'name': 'constant.numeric.hex'
+    'comment': 'Hexadecimal numbers format xFFFF 0xFFFF'
+  }
+  {
+    'match': '(b[01]+)\\s'
+    'name': 'constant.numeric.bin'
+    'comment': 'Binary numbers format b10'
+  }
+  {
+    'match': '#?[0-9]+\\s'
+    'name': 'constant.numeric.dec'
+    'comment': 'Decimal numbers format #123 123'
+  }
+  {
+    'match': '[\\w\\d]+[:]'
+    'name':'markup.italic'
+    'comment': 'Label format'
+  }
+  {
+    'match': '\\.(([wW][oO][rR][dD]))'
+    'name': 'entity.name.function.directives'
+    'comment': 'Directive format, pseduo-instructions'
+  }
+
+
+]
+'scopeName': 'source.x86asm'

@@ -1,0 +1,22 @@
+{
+  "name": "language-lc2200",
+  "main": "./lib/language-lc2200",
+  "version": "1.0.0",
+  "description": "LC-2200 Assembly Syntax highlighting and autocompletion for Atom",
+  "keywords": [
+    "LC-2200",
+    "lc2200",
+    "language-lc2200",
+    "Assembly",
+    "Little Computer 2200 language"
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-lc2200:toggle"
+  },
+  "repository": "https://github.com/Nxt3/language-lc2200",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

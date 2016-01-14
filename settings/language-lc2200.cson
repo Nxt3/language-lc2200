@@ -1,0 +1,33 @@
+'.source.lc2200':
+  'editor':
+    'commentStart': '!'
+
+  'completions': [
+    'add'
+    'nand'
+    'addi'
+    'lw'
+    'sw'
+    'beq'
+    'jalr'
+    'spop'
+    'halt'
+    'noop'
+    '.word'
+    '$zero'
+    '$at'
+    '$v0'
+    '$a0'
+    '$a1'
+    '$a2'
+    '$t0'
+    '$t1'
+    '$t2'
+    '$s0'
+    '$s1'
+    '$s2'
+    '$k0'
+    '$sp'
+    '$fp'
+    '$ra'
+  ]

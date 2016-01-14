@@ -1,7 +1,7 @@
 {
   "name": "language-lc2200",
   "main": "./lib/language-lc2200",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "LC-2200 Assembly Syntax highlighting and autocompletion for Atom",
   "keywords": [
     "LC-2200",

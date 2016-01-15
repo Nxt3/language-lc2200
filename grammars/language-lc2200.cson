@@ -10,7 +10,7 @@
     'comment': 'Comment format ;'
   }
   {
-    'match': '\\$(([aA][tT])|([vV][0])|([aA][0-2])|([tT][0-2])|([sS][0-2])|([kK][0])|([sS][pP])|([fF][pP])|([rR][aA]))',
+    'match': '\\$(([aA][tT])|([vV][0])|([aA][0-2])|([tT][0-2])|([sS][0-2])|([kK][0])|([sS][pP])|([fF][pP])|([rR][aA])|([zZ][eE][rR][oO]))',
     'name': 'entity.name.function.reg'
     'comment': 'Register format $__'
   }
